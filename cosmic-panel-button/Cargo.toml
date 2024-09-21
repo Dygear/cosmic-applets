@@ -2,13 +2,13 @@
 name = "cosmic-panel-button"
 version = "0.1.0"
 edition = "2021"
-license = "GPL-3.0"
+license = "GPL-3.0-only"
 
 [dependencies]
-freedesktop-desktop-entry = "0.6.2"
+freedesktop-desktop-entry.workspace = true
 libcosmic.workspace = true
-tracing-log.workspace = true
-tracing-subscriber.workspace = true
 tracing.workspace = true
+tracing-subscriber.workspace = true
+tracing-log.workspace = true
 cosmic-config.workspace = true
 serde.workspace = true
